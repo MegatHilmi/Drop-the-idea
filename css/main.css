@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header{
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#text-area{
+    width: 400px;
+    height: 300px;
+    border-radius: 9px;
+    font-size: 20px;
+}
+
+.input .button{
+    width: 100%;
+    height: 35px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 0;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.link-part{
+    margin: 9px 0;
+    text-align: center;
+}
+
+.socialmedia{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: -100px;
+}
+
+.socialmedia .instagram-icon{
+    width: 25px;
+    margin: 0 2em;
+}
+
+.socialmedia .github-icon{
+    width: 25px;
+    margin: 0 2em;
+}
+
+.socialmedia .linkedin-icon{
+    width: 25px;
+    margin: 0 2em;
+}
+
+
+@media(min-width:930px){
+    .socialmedia .instagram-icon{
+        width: 30px;
+    }
+    
+    .socialmedia .github-icon{
+        width: 30px;
+    }
+    
+    .socialmedia .linkedin-icon{
+        width: 30px;
+    }
+}
