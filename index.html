@@ -8,32 +8,50 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <div class="header">
-        <header>
-            <h1>Put it in here!!</h1>
-        </header>
-
-        <form class="input">
-            <textarea name="put-in-here" id="text-area" cols="30" rows="10"></textarea>
-            <br><input type ="button" class="button" onclick="sendItBtn()" value="Send it!">
-        </form>
-
-        <div class="link-part">
-            <a href="#" class="link">What is this all about?</a>
-        </div>   
+    <div class="main">
+        <div class="header">
+            <header>
+                <h1>Put it in here!!</h1>
+            </header>
+    
+            <form class="input">
+                <textarea name="put-in-here" id="text-area" cols="30" rows="10"></textarea>
+                <br><input type ="button" class="button" onclick="sendItBtn()" value="Send it!">
+            </form>
+    
+            <div class="link-part">
+                <a href="#" class="link">What is this all about?</a>
+            </div>   
+        </div>
+    
+        <div class="socialmedia">
+            <a href="#" class="instagram">
+                <img src="./icon/instagram.png" alt="instagram icon" class="instagram-icon">
+            </a>
+            <a href="#" class="github">
+                <img src="./icon/github.png" alt="github icon" class="github-icon">
+            </a>
+            <a href="#" class="linkedin">
+                <img src="./icon/linkedin.png" alt="linked icon" class="linkedin-icon">
+            </a>
+        </div>
     </div>
+    
+    <div class="popup-group">
+        <div class="popup-background">
+            <div class="popup">
+                <section class="section">
+                    <p>Successfully Sent</p>
+                    <img src="./icon/checked.png" alt="instagram icon" class="instagram-icon">
+                </section>
+            </div>
+        </div>
+        <div class="transparent-click" onclick="popupClose()">
 
-    <div class="socialmedia">
-        <a href="#" class="instagram">
-            <img src="../Drop-the-idea/icon/instagram.png" alt="instagram icon" class="instagram-icon">
-        </a>
-        <a href="#" class="github">
-            <img src="../Drop-the-idea/icon/github.png" alt="github icon" class="github-icon">
-        </a>
-        <a href="#" class="linkedin">
-            <img src="../Drop-the-idea/icon/linkedin.png" alt="linked icon" class="linkedin-icon">
-        </a>
+        </div>
     </div>
+    
+    
     
 </body>
 <script src="/main.js"></script>
