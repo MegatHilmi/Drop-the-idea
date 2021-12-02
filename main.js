@@ -17,3 +17,13 @@ function popupClose(){
     document.querySelector(".popup-background").style.visibility = "hidden";
     document.querySelector(".transparent-click").style.visibility = "hidden";
 }
+
+function linkOpen(){
+    document.querySelector(".link-popup-background").style.visibility = "visible";
+    document.querySelector(".link-transparent-click").style.visibility = "visible";
+}
+
+function linkClose(){
+    document.querySelector(".link-popup-background").style.visibility = "hidden";
+    document.querySelector(".link-transparent-click").style.visibility = "hidden";
+}

@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-@import url('https://www.dafont.com/riffic.font?text=Thank+You&back=theme');
 
 body{
     margin: 0;
@@ -64,11 +63,81 @@ header{
     margin: 0 2em;
 }
 
-/* .popup-group{
-    position: relative;
+/*......................popup when people click what is this all about............................... */
 
+.link-popup-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: blue;
+    background: rgba( 199, 197, 197, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    /* visibility: hidden; */
+}
+
+.link-popup{
+    background-color: red;
+    width: 25em;
+    height: 30em;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .link-popup::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 } */
 
+.link-popup p{
+    padding: 50px;
+    text-align: justify;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* .link-transparent-click{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 2;
+    visibility: hidden;
+} */
+
+/* .............................popup after send the message......................................... */
 .popup-group .popup-background{
     position: absolute;
     top: 0;
@@ -95,7 +164,6 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
-    
 }
 
 .section{

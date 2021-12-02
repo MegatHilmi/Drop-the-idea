@@ -18,10 +18,10 @@
                 <textarea name="put-in-here" id="text-area" cols="30" rows="10"></textarea>
                 <br><input type ="button" class="button" onclick="sendItBtn()" value="Send it!">
             </form>
-    
+            
             <div class="link-part">
-                <a href="#" class="link">What is this all about?</a>
-            </div>   
+                <a href="#" class="link" onclick="linkOpen()">What is this all about?</a>
+            </div>
         </div>
     
         <div class="socialmedia">
@@ -36,6 +36,15 @@
             </a>
         </div>
     </div>
+
+    <div class="link-popup-group">
+        <div class="link-popup-background" onclick="linkClose()">
+            <div class="link-popup">
+                <p onclick="linkClose()">Hello there, everyone! My name is Megat Hilmi, and I am currently a student of computer science at a public university. The purpose of this website is to improve my HTML, CSS, and JavaScript skills in order to design better websites. I already have a small grasp of those programming languages, but I'll need some additional training to master them.  I'd be grateful if you could send me project ideas, tips, comments, and any other relevant information. As a result, all websites that I build will be shared on this website. <br><br>Thank you for your help and support. Stay safe!</p>
+            </div>
+        </div>
+        <!-- <div class="link-transparent-click" onclick="linkClose()"></div> -->
+    </div>
     
     <div class="popup-group">
         <div class="popup-background">
@@ -46,13 +55,8 @@
                 </section>
             </div>
         </div>
-        <div class="transparent-click" onclick="popupClose()">
-
-        </div>
+        <div class="transparent-click" onclick="popupClose()"></div>
     </div>
-    
-    
-    
 </body>
 <script src="/main.js"></script>
 </html>
