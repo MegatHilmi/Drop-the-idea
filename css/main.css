@@ -96,21 +96,6 @@ header{
     align-items: center;
 }
 
-/* .link-popup::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba( 255, 255, 255, 0 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 0px );
-    -webkit-backdrop-filter: blur( 0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-} */
-
 .link-popup p{
     padding: 50px;
     text-align: justify;
@@ -118,7 +103,6 @@ header{
     font-weight: 500;
     line-height: 1.5;
     font-family: 'Ubuntu', sans-serif;
-
 }
 
 /* .link-transparent-click{
