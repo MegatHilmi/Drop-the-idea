@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 body{
@@ -19,7 +18,7 @@ header{
 }
 
 #text-area{
-    width: 400px;
+    width: 60vw;
     height: 300px;
     border-radius: 9px;
     font-size: 20px;
@@ -190,6 +189,185 @@ header{
     visibility: hidden;
 }
 
+/* -------------------------responsive page for phone size------------------------------------- */
+@media(max-width : 500px){
+    
+    header{
+        font-size: 6vw;
+    }
+    
+    #text-area{
+        width: 80vw;
+        height: 300px;
+        border-radius: 9px;
+        font-size: 20px;
+    }
+    
+    .input .button{
+        width: 100%;
+        height: 35px;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 0;
+        border-radius: 9px;
+        cursor: pointer;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+    }
+    
+    .link-part{
+        margin: 9px 0;
+        text-align: center;
+    }
+    
+    .link{
+        font-family: sans-serif;
+    }
+    
+    .socialmedia{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        bottom: -100px;
+    }
+    
+    .socialmedia .instagram-icon{
+        width: 25px;
+        margin: 0 2em;
+    }
+    
+    .socialmedia .github-icon{
+        width: 25px;
+        margin: 0 2em;
+    }
+    
+    .socialmedia .linkedin-icon{
+        width: 25px;
+        margin: 0 2em;
+    }
+    
+    /*......................popup when people click what is this all about............................... */
+    
+    .link-popup-background{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: blue;
+        background: rgba( 252, 213, 206, 0.35 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4.5px );
+        -webkit-backdrop-filter: blur( 4.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        visibility: hidden;
+    }
+    
+    .link-animation-move{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .link-popup{
+        background-color: #FFB5A7;
+        width: 25em;
+        height: 30em;
+        border-radius: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .link-popup p{
+        padding: 50px;
+        text-align: justify;
+        font-size: 1em;
+        font-weight: 500;
+        line-height: 1.5;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    /* .............................popup after send the message......................................... */
+    .popup-group .popup-background{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba( 252, 213, 206, 0.35 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4.5px );
+        -webkit-backdrop-filter: blur( 4.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        z-index: 1;
+        visibility: hidden;
+    }
+    
+    .animation-move{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .popup{
+        background-color: #FFB5A7;
+        width: 25em;
+        height: 30%;
+        border-radius: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -25%);
+    }
+    
+    .section{
+        display: inline-flex;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .section img{
+        width: 50px;
+        height:fit-content;
+        margin: 20px 20px;
+    }
+    
+    .section p{
+        font-size: 30px;
+        font-family: 'riffic', sans-serif;
+    }
+    
+    .popup-group .transparent-click{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba( 255, 255, 255, 0 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        z-index: 2;
+        visibility: hidden;
+    }
+}
 
 @media(min-width:930px){
     .socialmedia .instagram-icon{
@@ -204,3 +382,4 @@ header{
         width: 30px;
     }
 }
+
