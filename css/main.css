@@ -34,11 +34,17 @@ header{
     margin: 5px 0;
     border-radius: 9px;
     cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 .link-part{
     margin: 9px 0;
     text-align: center;
+}
+
+.link{
+    font-family: sans-serif;
 }
 
 .socialmedia{
@@ -72,7 +78,7 @@ header{
     right: 0;
     bottom: 0;
     background-color: blue;
-    background: rgba( 199, 197, 197, 0.35 );
+    background: rgba( 252, 213, 206, 0.35 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4.5px );
     -webkit-backdrop-filter: blur( 4.5px );
@@ -81,8 +87,16 @@ header{
     visibility: hidden;
 }
 
+.link-animation-move{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .link-popup{
-    background-color: red;
+    background-color: #FFB5A7;
     width: 25em;
     height: 30em;
     border-radius: 15px;
@@ -105,22 +119,6 @@ header{
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* .link-transparent-click{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba( 255, 255, 255, 0 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 0px );
-    -webkit-backdrop-filter: blur( 0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    z-index: 2;
-    visibility: hidden;
-} */
-
 /* .............................popup after send the message......................................... */
 .popup-group .popup-background{
     position: absolute;
@@ -128,7 +126,7 @@ header{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba( 199, 197, 197, 0.35 );
+    background: rgba( 252, 213, 206, 0.35 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4.5px );
     -webkit-backdrop-filter: blur( 4.5px );
@@ -138,16 +136,23 @@ header{
     visibility: hidden;
 }
 
+.animation-move{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .popup{
-    background-color: red;
+    background-color: #FFB5A7;
     width: 25em;
     height: 30%;
     border-radius: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
+    transform: translate(-50%, -25%);
 }
 
 .section{

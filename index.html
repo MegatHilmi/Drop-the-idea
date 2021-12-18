@@ -15,7 +15,7 @@
             </header>
     
             <form class="input">
-                <textarea name="put-in-here" id="text-area" cols="30" rows="10"></textarea>
+                <textarea name="put-in-here" id="text-area" cols="30" rows="10" required></textarea>
                 <br><input type ="button" class="button" onclick="sendItBtn()" value="Send it!">
             </form>
             
@@ -39,24 +39,28 @@
 
     <div class="link-popup-group">
         <div class="link-popup-background" onclick="linkClose()">
-            <div class="link-popup">
-                <p onclick="linkClose()">Hello there, everyone! My name is Megat Hilmi, and I am currently a student of computer science at a public university. The purpose of this website is to improve my HTML, CSS, and JavaScript skills in order to design better websites. I already have a small grasp of those programming languages, but I'll need some additional training to master them.  I'd be grateful if you could send me project ideas, tips, comments, and any other relevant information. As a result, all websites that I build will be shared on this website. <br><br>Thank you for your help and support. Stay safe!</p>
+            <div class="link-animation-move">
+                <div class="link-popup">
+                    <p onclick="linkClose()">Hello there, everyone! My name is Megat Hilmi, and I am currently a student of computer science at a public university. The purpose of this website is to improve my HTML, CSS, and JavaScript skills in order to design better websites. I already have a small grasp of those programming languages, but I'll need some additional training to master them.  I'd be grateful if you could send me project ideas, tips, comments, and any other relevant information. As a result, all websites that I build will be shared on this website. <br><br>Thank you for your help and support. Stay safe!</p>
+                </div>
             </div>
         </div>
-        <!-- <div class="link-transparent-click" onclick="linkClose()"></div> -->
     </div>
     
     <div class="popup-group">
         <div class="popup-background">
-            <div class="popup">
-                <section class="section">
-                    <p>Successfully Sent</p>
-                    <img src="./icon/checked.png" alt="instagram icon" class="instagram-icon">
-                </section>
+            <div class="animation-move">
+                <div class="popup">
+                    <section class="section">
+                        <p>Successfully Sent</p>
+                        <img src="./icon/checked.png" alt="instagram icon" class="instagram-icon">
+                    </section>
+                </div>
             </div>
         </div>
         <div class="transparent-click" onclick="popupClose()"></div>
     </div>
 </body>
 <script src="/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
 </html>
