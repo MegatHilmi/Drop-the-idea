@@ -65,11 +65,11 @@ For the future project, I will keep making website that can entertain people, ma
 - [resource 6](https://www.tutorialrepublic.com/faq/how-to-change-the-cursor-into-a-hand-pointer-on-hover-using-css.php) - How to change the cursor when hover it
 - [resource 7](https://hype4.academy/tools/glassmorphism-generator) - To generate a background look like a glass.
 - [resource 8](https://www.delftstack.com/howto/javascript/make-a-div-clickable/) - Tutorial on how to make a div clickable.
-- [resource 9]()
-- [resource 10]()
-- [resource 11]()
-- [resource 12]()
-- [resource 13]()
+- [resource 9](https://blog.hubspot.com/website/center-text-in-css) - tutorial on how to center the textusing CSS
+- [resource 10](https://www.w3schools.com/cssref/pr_font_weight.asp) - CSS font weight property
+- [resource 11](https://hype4.academy/tools/glassmorphism-generator) - Glassmorphism generator
+- [resource 12](https://www.freecodecamp.org/news/the-beginners-guide-to-the-greensock-animation-platform-7dc9fd9eb826/) - GSAP Tutorial from free code camp
+- [resource 13](https://stackoverflow.com/questions/3896537/should-i-size-a-textarea-with-css-width-height-or-html-cols-rows-attributes) - Forum on how to resize the text area
 - [resource 14]()
 - [resource 15]()
 - [resource 16]()
