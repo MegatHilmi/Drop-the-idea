@@ -28,14 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/55268374/142579656-512836a1-55b2-4fe6-84b5-93bdd221e122.png)
-
+![image](https://user-images.githubusercontent.com/55268374/182007800-3dc4ae1d-8262-483f-ad3e-55e4f4e17527.png)
 
 
 
 ### Links
 
---
+- Live Site URL: https://megathilmi.github.io/Drop-the-idea/
 
 ## My process
 
@@ -70,36 +69,7 @@ For the future project, I will keep making website that can entertain people, ma
 - [resource 11](https://hype4.academy/tools/glassmorphism-generator) - Glassmorphism generator
 - [resource 12](https://www.freecodecamp.org/news/the-beginners-guide-to-the-greensock-animation-platform-7dc9fd9eb826/) - GSAP Tutorial from free code camp
 - [resource 13](https://stackoverflow.com/questions/3896537/should-i-size-a-textarea-with-css-width-height-or-html-cols-rows-attributes) - Forum on how to resize the text area
-- [resource 14]()
-- [resource 15]()
-- [resource 16]()
-- [resource 17]()
-- [resource 18]()
-- [resource 19]()
-- [resource 20]()
-- [resource 21]()
-- [resource 22]()
-- [resource 23]()
-- [resource 24]()
-- [resource 25]()
-- [resource 26]()
-- [resource 27]()
-- [resource 28]()
-- [resource 29]()
-- [resource 30]()
-- [resource 31]()
-- [resource 32]()
-- [resource 33]()
-- [resource 34]()
-- [resource 35]()
-- [resource 36]()
-- [resource 37]()
-- [resource 38]()
-- [resource 39]()
-- [resource 40]()
-- [resource 41]()
-- [resource 42]()
-- [resource 43]()
+
 
 
 
